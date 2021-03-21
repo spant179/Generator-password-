@@ -20,10 +20,10 @@ Usage
 
 This project has been deployed and is live on GitHub. Click the links below.
 
-[JS Passwod Generator Website] 
+- [JS Passwod Generator Website](http://127.0.0.1:5500/index.html) 
 
 
- [Sandhya Pant' Github Repository] (https://github.com/spant179/Generator-password-)
+ - [Sandhya Pant' Github Repository](https://github.com/spant179/Generator-password-)
 
 
 
