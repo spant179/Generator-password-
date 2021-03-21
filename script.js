@@ -5,7 +5,7 @@ let lowerCases= ["a","b","c","d","e","f","e","f","g","h","i","j","k","l","m","n"
 let upperCases=[]
 let specialChar =["!","@","#","$","%","^","&","*","(",")","-","_","+","=","{","}","[","]","|",";",":","<",">","?","/",",","."];
 let numericValues =[];
-let finalpassword;
+
 
 for(i=0;i<10;i++)
 {
@@ -19,6 +19,7 @@ for(i=0;i<lowerCases.length;i++)
 
 
 function generatePassword(length) {
+  let finalpassword ="";
   let isLower = confirm("Do you want to include lowercase?");
   let isUpper = confirm("Do you want to include uppercase?");
   let isSpecial = confirm("Do you want to include special characters?");
@@ -33,23 +34,24 @@ function generatePassword(length) {
   }
 
 if(isLower){
-  randomPassword.push(lowerCases);
+  randomPassword.push(...lowerCases);
 }
 
 if(isUpper){
-  randomPassword.push(upperCases);
+  randomPassword.push(...upperCases);
 }
 
 if(isSpecial){
-  randomPassword.push(specialChar);
+  randomPassword.push(...specialChar);
 }
 
 if(isNum){
-  randomPassword.push(numericValues);
+  randomPassword.push(...numericValues);
 }
 
-//Add a loop for finalpassword
-
+for(i=0;i<length;i++){
+ finalpassword += randomPassword[(Math.floor(Math.random()*randomPassword.length))];
+ }
 
   return finalpassword;
 }
