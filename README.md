@@ -1,4 +1,4 @@
-For this project, we have been assigned the task to modify a starter code in order to create a random password generator. The generator will ask you a series of questions, criteria required to create the passowrd, when all criteria are met the user is given a new randomized password made of the character options they selected. This project was completed by using a variety of Javascript code.
+For this project, we have been assigned the task to modify a starter code in order to create a random password generator. The generator will ask you a series of questions, criteria required to create the password, when all criteria are met the user is given a new randomized password made of the character options they selected. This project was completed by using a variety of Javascript code.
 
 
 ***
@@ -20,7 +20,7 @@ Usage
 
 This project has been deployed and is live on GitHub. Click the links below.
 
-- [JS Passwod Generator Website](http://127.0.0.1:5500/index.html) 
+- [JS Password Generator Website](http://127.0.0.1:5500/index.html) 
 
 
  - [Sandhya Pant' Github Repository](https://github.com/spant179/Generator-password-)
