@@ -20,7 +20,7 @@ Usage
 
 This project has been deployed and is live on GitHub. Click the links below.
 
-- [JS Password Generator Website](http://127.0.0.1:5500/index.html) 
+- [JS Password Generator Website](https://spant179.github.io/Random-Password/)
 
 
  - [Sandhya Pant' Github Repository](https://github.com/spant179/Generator-password-)
